@@ -83,8 +83,13 @@ function userCard(data) {
   // Assign content
   newImage.setAttribute('src', data.avatar_url);
   profileLink.setAttribute('href', data.html_url);
-  profileLink.textContent = `${data.name}'s GitHub page`
-  newName.textContent = `${data.name}`
+  profileLink.textContent = `${data.name}'s GitHub page`;
+  newName.textContent = `${data.name}`;
+  newUserName.textContent = `${data.login}`;
+  location.textContent = `${data.location}`;
+  followers.textContent = `Followers: ${data.followers}`;
+  following.textContent = `Following: ${data.following}`;
+  bio.textContent = `${data.bio}`;
 
 
   console.log(newCard)
