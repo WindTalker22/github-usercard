@@ -9,7 +9,7 @@ In this project we are going to be accessing the GitHub API and building a socia
   * Promises, .then & .catch
   * HTTP GET requests
   * Array Methods
-* DOM
+  * DOM
   * Element selection
   * Basic DOM manipulation
   * Events and event listeners
